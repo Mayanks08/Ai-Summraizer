@@ -168,16 +168,7 @@ function App() {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-2xl font-bold mb-8 text-center">AI Meeting Notes Summarizer</h1>
         
-        {/* Debug Info */}
-        <div className="bg-blue-50 p-4 rounded-lg mb-6 border border-blue-200">
-          <h3 className="font-semibold text-blue-800 mb-2">🔧 Debug Info</h3>
-          <p className="text-sm text-blue-700">
-            Supabase URL: {import.meta.env.VITE_SUPABASE_URL || ' Not set'}
-          </p>
-          <p className="text-sm text-blue-700">
-            API Key: {import.meta.env.VITE_SUPABASE_ANON_KEY ? ' Present' : ' Not set'}
-          </p>
-        </div>
+    
         
         {/* Transcript Input Section */}
         <div className="bg-white p-6 rounded-lg shadow mb-6">
